@@ -5,27 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel = "stylesheet" href = "./style.css">
   <title>Frontend Mentor | Launch countdown timer</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <script src = "countdownTimer.js"></script>
+ <!--  <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body>
+  <div class="wrapper">
+    <content>
+      <div class="title">
+        <h2> We're launching soon </h2>
+      </div>
+      <section class="timer">
+        <div class="counter">
+          <div class="timer-background " >
+            <div id="days" class="timer-number">14</div>
+          </div>
+          <p class="timer-label">Days</p>
+        </div>
+        <div class="counter">
+          <div class="timer-background">
+            <div id="hours" class="timer-number">0</div>
+          </div>
+          <p class="timer-label">hours</p>
+        </div>
+        <div class="counter">
+          <div class="timer-background">
+            <div id="minutes" class="timer-number">0</div>
+          </div>
+          <p class="timer-label">minutes</p>
+        </div>
+        <div class="counter">
+          <div class="timer-background">
+            <div id="seconds" class="timer-number">0</div>
+          </div>
+          <p class="timer-label">seconds</p>
+        </div>
+      </section>
+    </content>
 
-  We're launching soon
-
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <footer>
+      <section class="social">
+        <div>
+          <object type="image/svg+xml" data="./images/icon-facebook.svg" height = "24px" width = "24"></object>
+        </div>
+        <div>
+          <object type="image/svg+xml" data="./images/icon-instagram.svg" height = "24px" width = "24px"></object>
+        </div>
+        <div>
+          <object type="image/svg+xml" data="./images/icon-pinterest.svg" height = "24px" width = "24px"></object>
+        </div>
+        
+      </section>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Sergey anishchenko</a>.
+      </div>
+    </footer>
   </div>
+  
+ 
 </body>
 </html>
